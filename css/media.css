@@ -10,7 +10,13 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
     .container{
         width: 100%;
     }
